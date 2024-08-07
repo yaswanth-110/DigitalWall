@@ -1,0 +1,18 @@
+::placeholder{
+    transition: all ease 0.3s;
+    color: white;
+    font-size: small;
+}
+
+input:focus::placeholder{
+    transform: translateY(-1rem);
+    font-size: small;
+    color: #187BFF;
+
+}
+
+input{
+    width:70% ;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}

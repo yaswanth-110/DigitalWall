@@ -11,14 +11,14 @@ function NavBar() {
   return (
     <>
       <header className="navbar-header">
-        <nav className="relative flex items-center justify-between p-4 text-white bg-[#22004C] navbar ">
-          <div className="flex w-[100px] items-center justify-evenly font-bold text-xl">
+        <nav className="relative flex items-center justify-between p-4 text-white bg-[#23629F] navbar ">
+          <div className="flex w-[100px] items-center justify-between font-bold text-xl">
             <Menu />
             <h2>Zelis</h2>
           </div>
           <div
             onClick={handleAccount}
-            className="mr-[50px] cursor-pointer  font-bold flex pl-4 items-center justify-evenly w-[120px] text-xl"
+            className="mr-[50px] cursor-pointer  font-bold flex pl-4 items-center justify-between w-[120px] text-xl"
           >
             <h1>Account</h1>
             <User style={{ height: "20px" }} />

@@ -1,0 +1,8 @@
+.react-flow {
+  height: 100%;
+}
+
+.react-flow__attribution {
+  right: 0;
+  display: none;
+}

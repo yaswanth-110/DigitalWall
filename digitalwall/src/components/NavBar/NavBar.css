@@ -17,6 +17,7 @@
 
 }
 
+
 .expanded{
     border-radius: 3px;
     padding: 2px;
@@ -26,9 +27,55 @@
     max-height: 70px;
 }
 
+/* .navbar{
+    background-color: var(--navbar-background);
+} */
+
 
 .account > h1{
     width: 100%;
     padding: 2px 2px 2px 5px;
     
+}
+
+
+/* #23629F */
+
+
+.list-items li {
+    
+    padding: 4px 20px;
+    list-style: none;
+
+}
+
+.list-items li:hover{
+    background-color:var(--background) ;
+    
+
+}
+
+.chevron{
+    width: 20px;
+    height: 20px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.rotated{
+    transform: rotate(180deg);
+}
+
+.side-nav{
+    height: 100%;
+    position: fixed;
+    width: 0;
+    top:10.5vh ;
+    left: 0;
+    transition: width 3s ease-in-out;
+}
+
+
+.side-nav.active{
+    width:200px;
 }

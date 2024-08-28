@@ -1,0 +1,11 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  :root{
+    --background:#f1f1f1;
+    --navbar-background:#23629F;
+  }
